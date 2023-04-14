@@ -128,3 +128,4 @@ M2 = []
 M3 = []
 
 ret = SapModel.Results.FrameForce(FrameName1, ObjectElm, NumberResults, Obj, ObjSta, Elm, ElmSta, LoadCase, StepType,StepNum, P, V2, V3, T, M2, M3)
+print(ret)
